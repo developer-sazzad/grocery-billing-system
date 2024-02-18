@@ -1,0 +1,77 @@
+/* Custom colors */
+:root{
+    --bg-color: #FFE4EA;
+    --white-text: #fff;
+    --title-color: #ee473f;
+    --black-title: #001912;
+    --green-color: #1cab55;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+/* Header Section Design */
+.header{
+    background-color: var(--bg-color);
+    padding: 30px;
+}
+
+.shop-title-container{
+    padding: 40px 30px;
+    text-align: center;
+}
+
+.site-title{
+    color: var(--green-color);
+    font-size: 2.2rem;
+}
+.top-title-description{
+    color: var(--black-title);
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.title-description{
+    color: var(--black-title);
+    font-size: 1.2rem;
+}
+
+
+/* Customer Details */
+.customer-details-container{
+    padding: 30px;
+    background-color: var(--green-color);
+    border-radius: 10px;
+}
+.customer-details-title{
+    text-align: center;
+    color: var(--white-text);
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    display: flex;
+}
+.customer-container{
+    display: flex;
+    gap: 30px;
+}
+
+/* Shared Styls */
+input{
+    padding: 7px 15px;
+    border-radius: 7px;
+    border: 2px solid var(--black-title);
+    font-size: 1.1rem;
+}
+label{
+    font-size: 1.2rem;
+    color: var(--white-text);
+}
+
+
+
+
