@@ -54,11 +54,15 @@ body {
 }
 .customer-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 40% 30% 30%;
   gap: 20px;
 }
 .customer-container > .items-content {
   justify-content: start;
+}
+.customer-container > .items-content > label {
+  color: #fff;
+  font-size: 1.2rem;
 }
 
 /* Shared Styls */
