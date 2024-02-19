@@ -39,6 +39,7 @@ body {
 
 /* Customer Details */
 .customer-details-container {
+  width: calc(100% - 60px);
   padding: 30px;
   background-color: var(--green-color);
   border-radius: 10px;
