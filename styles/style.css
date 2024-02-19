@@ -25,7 +25,7 @@ body {
 
 .site-title {
   color: var(--green-color);
-  font-size: 2.2rem;
+  font-size: 2.8rem;
 }
 .top-title-description {
   color: var(--black-title);
@@ -54,6 +54,7 @@ body {
   display: flex;
 }
 .customer-container {
+  width: calc(100% - 50px);
   display: grid;
   grid-template-columns: 40% 30% 30%;
   gap: 20px;
@@ -189,16 +190,19 @@ footer > p {
 
 /* Mobile and Tablet Responsive */
 @media screen and (max-width: 576px) {
-  .customer-container {
-    flex-direction: column;
+  .site-title {
+    font-size: 2rem;
   }
   .food-body {
     grid-template-columns: repeat(1, 1fr);
   }
   .customer-container {
     grid-template-columns: repeat(1, 1fr);
-    gap: 10px;
+    /* width: calc(100% - 80px); */
   }
+  /* .items-content {
+    width: 100%;
+  } */
   .customer-container > .items-content {
     justify-content: space-between;
   }
