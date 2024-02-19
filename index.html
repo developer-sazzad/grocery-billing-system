@@ -22,25 +22,24 @@
         <div class="shop-title-container">
             <h4 class="top-title-description">Welcome to Our</h4>
             <h1 class="site-title">Grocery Billing System Software</h1>
-            <p class="title-description">5th/Computer/A2</p>
         </div>
         <!-- Customer Details Section -->
         <div class="customer-details-container">
             <h3 class="customer-details-title">Customer Details</h3>
             <div class="customer-container">
                 <!-- Customer Name -->
-                <div>
+                <div class="items-content">
                     <label for="customer-name">Customer Name:</label>
                     <input type="text" id="customer-name" />
                 </div>
                 <!-- Customer Phone Number -->
-                <div>
+                <div class="items-content">
                     <label for="customer-phone">Phone:</label>
                     <input type="number" id="customer-phone" />
                 </div>
 
                 <!-- Customer Address -->
-                <div>
+                <div class="items-content">
                     <label for="customer-address">Address:</label>
                     <input type="text" id="customer-address" />
                 </div>
@@ -48,6 +47,123 @@
 
         </div>
     </header>
+    <!-- Billing Inputs -->
+    <main>
+        <section class="food-body">
+            <!-- Food Items Section -->
+            <div class="items-container">
+                <h3 class="item-title">Food Items</h3>
+                <div class="items-content">
+                    <label for="bread">Bread :</label>
+                    <input type="number" id="bread" />
+                </div>
+                <div class="items-content">
+                    <label for="Candy">Candy :</label>
+                    <input type="number" id="Candy" />
+                </div>
+                <div class="items-content">
+                    <label for="sandwich">Sandwich :</label>
+                    <input type="number" id="sandwich" />
+                </div>
+                <div class="items-content">
+                    <label for="apple">Apple :</label>
+                    <input type="number" id="apple" />
+                </div>
+            </div>
+            <!-- Grocery Items Section -->
+            <div class="items-container">
+                <h3 class="item-title">Grocery Items</h3>
+                <div class="items-content">
+                    <label for="rice">Rice :</label>
+                    <input type="number" id="rice" />
+                </div>
+                <div class="items-content">
+                    <label for="food-oil">Food Oil :</label>
+                    <input type="number" id="food-oil" />
+                </div>
+                <div class="items-content">
+                    <label for="salt">Salt :</label>
+                    <input type="number" id="salt" />
+                </div>
+                <div class="items-content">
+                    <label for="sugar">Sugar :</label>
+                    <input type="number" id="sugar" />
+                </div>
+            </div>
+            <!-- Extra Items Section -->
+            <div class="items-container">
+                <h3 class="item-title">Extra Items</h3>
+                <div class="items-content">
+                    <label for="coke">Coke :</label>
+                    <input type="number" id="coke" />
+                </div>
+                <div class="items-content">
+                    <label for="juice">Juice :</label>
+                    <input type="number" id="juice" />
+                </div>
+                <div class="items-content">
+                    <label for="biscuits">Biscuits :</label>
+                    <input type="number" id="biscuits" />
+                </div>
+                <div class="items-content">
+                    <label for="water">Water :</label>
+                    <input type="number" id="water" />
+                </div>
+            </div>
+
+
+        </section>
+        <!-- Bill Menu Section -->
+        <section class="bill-menu-container">
+            <h2 class="divider">Bill Menu</h2>
+            <div class="bill-menu-section">
+                <div class="discount-container">
+                    <div class="discount-content items-container">
+                        <h2 class="item-title">Discounts</h2>
+                        <div class="items-content">
+                            <label for="food-discount">Food Discount:</label>
+                            <input type="number" id="food-discount" />
+                        </div>
+                        <div class="items-content">
+                            <label for="grocery-discount">Grocery Discount:</label>
+                            <input type="number" id="grocery-discount" />
+                        </div>
+                        <div class="items-content">
+                            <label for="extra-discount">Extra Discount:</label>
+                            <input type="number" id="extra-discount" />
+                        </div>
+                    </div>
+                    <div class="discount-content items-container">
+                        <h2 class="item-title">Tax's</h2>
+                        <div class="items-content">
+                            <label for="food-tax">Food tax:</label>
+                            <input type="number" id="food-tax" />
+                        </div>
+                        <div class="items-content">
+                            <label for="grocery-tax">Grocery tax:</label>
+                            <input type="number" id="grocery-tax" />
+                        </div>
+                        <div class="items-content">
+                            <label for="extra-tax">Extra tax:</label>
+                            <input type="number" id="extra-tax" />
+                        </div>
+                    </div>
+
+                </div>
+                <div class="button-container">
+                    <div class="buttons">
+                        <button type="button">Generate Bill</button>
+                        <button type="button">Add Item</button>
+                        <button type="button">Clear</button>
+                        <button type="button">Download</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright &copy 2024 - All right reserved by 5-Computer-A2</p>
+    </footer>
 </body>
 
 </html>
